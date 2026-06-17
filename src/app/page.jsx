@@ -6,6 +6,41 @@ const tools = [
     name: "Color Picker",
     description: "Pick a hue and slide through its shades.",
   },
+  {
+    href: "/json-formatter",
+    name: "JSON Formatter",
+    description: "Validate and pretty-print JSON.",
+  },
+  {
+    href: "/jwt-decoder",
+    name: "JWT Decoder",
+    description: "Decode a token's header and payload.",
+  },
+  {
+    href: "/gradient-generator",
+    name: "Gradient Generator",
+    description: "Build a CSS linear or radial gradient.",
+  },
+  {
+    href: "/shadow-generator",
+    name: "Shadow Generator",
+    description: "Build a box-shadow value visually.",
+  },
+  {
+    href: "/timestamp-converter",
+    name: "Timestamp Converter",
+    description: "Convert between Unix, ISO, and readable time.",
+  },
+  {
+    href: "/regex-tester",
+    name: "Regex Tester",
+    description: "Test a pattern against sample text.",
+  },
+  {
+    href: "/mock-data",
+    name: "Mock Data Generator",
+    description: "Fake users, transactions, and wallets.",
+  },
 ];
 
 export default function Home() {
